@@ -1,0 +1,8 @@
+# Set the co-ordinates for the robot's desired goal location.
+
+xGoal : 43.305
+yGoal : 42.666
+xOri : 0.00
+yOri : 0.00
+zOri : 0.00
+wOri : 0.00

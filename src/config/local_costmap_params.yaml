@@ -1,0 +1,14 @@
+local_costmap:
+  global_frame: odom
+  robot_base_frame: footprint
+
+  update_frequency: 10.0        #This parameter defines how often cost should be recalculated.
+  publish_frequency: 10.0       #This parameter defines how often cost map should be published to topic.
+  transform_tolerance: 0.5      #This parameter define latency in published transforms (in seconds), 
+                                #if transforms are older than this, planner will stop.
+
+  static_map: false             #This parameter defines if map can change in time, true if map will not change.
+  rolling_window: true          #This parameter defines if map should follow position of robot.
+  width: 3                      #These parameters define size of map (in meters).
+  height: 3
+  resolution: 0.05              #This parameter define size of single map cell (in meters).
